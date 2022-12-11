@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+      body {
+        background-color: black;
+      }
+      .white {color: white;}
+      .heading{color: white; size: 20; }
+      .link {color: rgb(65, 69, 185);}
+    .red {color: red;}
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function copyEvent(id) {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy");
+      }
+    </script>
+
+    <center><h1 class="white">Kkid's Hacks</h1></center>
+    <p class="white" id="copy">Test</p>
+    <button type="button" onclick="copyEvent('copy')">Copy</button> <br />
+    <h2 class="white">Global Scripts</h2>
+
+    <a class="link" href="Token.js">Token + XP</a>
+    <br />
+    <a class="link" href="Spam_Open.js">Spam Open Boxes</a>
+    <br />
+    <a class="link" href="Auto Answer.js">Auto Answer</a>
+    <br />
+    <a class="link" href="All_Aswners_Correct.js">All Correct</a>
+    <br />
+    <a class="link" href="Sell_Dupes.js">Sell Dupes</a>
+    <br />
+    <h2 class="white">Factory</h2>
+    <a class="link" href="add_cash.js">Add Cash</a>
+    <br />
+    <h2 class="white">Tower Defence</h2>
+    <a class="link" href="TowerD_Tokens.js">Tokens</a>
+    <br />
+    <a class="link" href="TowerD_SetRound.js">Set Round</a>
+    <br />
+    <a class="link" href="TowerD_OPTowers.js">OP Towers</a>
+    <h2 class="white">Monster Brawl</h2>
+    <a class="link" href="Monster Brawl/
+    Monster_SetLevel.js">Set Level</a>
+    <br />
+    <a class="link" href="Monster Brawl/Monster_SetXP.js">Set XP</a>
+    <br />
+    <a class="link" href="Monster Brawl/Monster_MaxAll.js">Max all unlocked abilities</a>
+    <p class="red">Warning! Can Crash Chromebook!</p>
+  </body>
+</html>
